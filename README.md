@@ -166,7 +166,7 @@ Built a production-grade, multi-AZ infrastructure that handles traffic spikes au
 - Two NAT Gateways, one per AZ - true HA with no shared outbound dependency
 - CloudWatch alarms trigger scaling at 80% CPU, scale back in at 20% - cost stays controlled
 - IMDSv2 enforced on all instances - SSRF attacks blocked at the metadata layer
-👉 [View Project](./11_high_available_scalable_infra)
+👉 [View Project](./11_scalable_cloud_infrastructure)
 
 ---
 
@@ -192,7 +192,7 @@ target tracking + CloudWatch alarms for dynamic scaling
 Dedicated destroy workflow - manual trigger only, type "DESTROY" to confirm, 
 protected by the same approval gate as production
 
-👉 [View Project](./12_multi_environment_cicd_pipeline)
+👉 [View Project](./12_automate_aws_infrastructure)
 
 ---
 
